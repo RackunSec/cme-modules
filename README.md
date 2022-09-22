@@ -1,6 +1,7 @@
 # Custom CME Modules
-Just some [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec) modules that I am working on. 
+Just some [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec) (CME) modules that I am working on. 
 ## Modules
+The modules are organized by protocol. use `-L` to see if they are available once you install them into your local instance of CME.
 ### LDAP
  * [list-da-members](/modules/list-da-members.py) - Simply lists out all Domain Admin members for the domain
  * [get-spns](/modules/get-spns.py) - Simply list all Service Principle Names for the domain
