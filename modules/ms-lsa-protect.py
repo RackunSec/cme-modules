@@ -7,11 +7,11 @@ from impacket.dcerpc.v5.rrp import DCERPCSessionError
 
 class CMEModule:
     '''
-    Detect if the target has Microsoft LSA protections enabled 
+    Detect if the target has various Microsoft LSA protections enabled (Requires Admin)
     Module by @RackunSec
     '''
     name = 'ms-lsa-protect'
-    description = 'Detect if the target has Microsoft LSA protections enabled'
+    description = 'Detect if the target has various Microsoft LSA protections enabled (Requires Admin)'
     supported_protocols = ['smb']
     opsec_safe= True
     multiple_hosts = True
